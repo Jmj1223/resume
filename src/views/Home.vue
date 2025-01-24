@@ -65,7 +65,7 @@ const fetchData = async() => {
         data.value = res.data
         console.log(data)
     } catch(error) {
-        alert('error!')
+        // alert('error!')
         console.log('error!')
     }
 };
