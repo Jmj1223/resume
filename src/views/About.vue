@@ -101,6 +101,8 @@ function handlerPublish() {
   localStorage.setItem('commentList', JSON.stringify(allData.value));
   // 清空输入框
   comment.value = '';
+   // 更新分页数据
+   updatedPaginatedData();
 }
 
 const onChange = (pageNumber, pageSize) => {
