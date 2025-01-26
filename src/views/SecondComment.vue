@@ -28,4 +28,16 @@ const comment1 = props.secondcomment.map(item=>item.data);
 
 <style>
 
+.top {
+    display: flex;
+}
+
+.mid {
+    margin: 15px 5px 5px 5px;
+}
+
+.bottom {
+    margin: 15px 5px 15px 5px;
+}
+
 </style>
